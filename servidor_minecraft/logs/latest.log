@@ -1,0 +1,471 @@
+[20Nov2025 02:52:56.140] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[20Nov2025 02:52:56.143] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[20Nov2025 02:53:07.551] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[20Nov2025 02:53:07.708] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/HytaleRevivio/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[20Nov2025 02:53:08.186] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/HytaleRevivio/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[20Nov2025 02:53:08.187] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/HytaleRevivio/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Nov2025 02:53:08.188] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/HytaleRevivio/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Nov2025 02:53:08.190] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/HytaleRevivio/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[20Nov2025 02:53:08.897] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 11 dependencies adding them to mods collection
+[20Nov2025 02:53:12.013] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20Nov2025 02:53:12.046] [main/ERROR] [mixin/]: Mixin config mixins.hydrol.json does not specify "minVersion" property
+[20Nov2025 02:53:12.171] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[20Nov2025 02:53:12.287] [main/WARN] [mixin/]: Reference map 'pandalib-common-common-refmap.json' for pandalib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Nov2025 02:53:12.318] [main/WARN] [mixin/]: Reference map 'mixins.block_factorys_bosses.refmap.json' for mixins.block_factorys_bosses.json could not be read. If this is a development environment you can ignore this message
+[20Nov2025 02:53:12.321] [main/WARN] [mixin/]: Reference map 'monsterexpansion.refmap.json' for monsterexpansion.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Nov2025 02:53:13.269] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
+[20Nov2025 02:53:14.426] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/KeyboardInput (java.lang.ClassNotFoundException: net.minecraft.client.player.KeyboardInput)
+[20Nov2025 02:53:14.426] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.KeyboardInput was not found fdlib.mixins.json:KeyboardInputMixin
+[20Nov2025 02:53:14.760] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[20Nov2025 02:53:23.316] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[20Nov2025 02:53:23.317] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 12
+[20Nov2025 02:53:23.317] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
+[20Nov2025 02:53:23.320] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 12 has been initalized!
+[20Nov2025 02:53:23.321] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
+[20Nov2025 02:53:23.374] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[20Nov2025 02:53:23.421] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[20Nov2025 02:53:23.488] [modloading-worker-0/INFO] [fallingtrees | Config/]: Successfully loaded config 'fallingtrees_common'
+[20Nov2025 02:53:23.494] [modloading-worker-0/INFO] [fallingtrees | Config/]: Successfully saved config 'fallingtrees_common'
+[20Nov2025 02:53:23.629] [modloading-worker-0/INFO] [KnightLib/]: The following content usage has been enabled: ALL
+[20Nov2025 02:53:23.867] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[20Nov2025 02:53:23.977] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[20Nov2025 02:53:23.980] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[20Nov2025 02:53:23.983] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[20Nov2025 02:53:23.984] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[20Nov2025 02:53:23.987] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[20Nov2025 02:53:23.989] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[20Nov2025 02:53:23.992] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[20Nov2025 02:53:24.137] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[20Nov2025 02:53:24.137] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[20Nov2025 02:53:24.510] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
+[20Nov2025 02:53:24.510] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
+[20Nov2025 02:53:25.475] [modloading-worker-0/INFO] [com.teamdurt.netherdungeons.NetherDungeons/]: Nether Dungeons mod init finished.
+[20Nov2025 02:53:25.657] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[20Nov2025 02:53:26.280] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[20Nov2025 02:53:37.036] [modloading-worker-0/INFO] [com.sky.weaponmaster.WeaponMaster/]: Total varients loaded: 6425544
+[20Nov2025 02:53:37.037] [modloading-worker-0/INFO] [com.sky.weaponmaster.WeaponMaster/]: Total varients loaded (inc. passives + abilities): 3675411168
+[20Nov2025 02:53:39.188] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[20Nov2025 02:53:40.096] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/HytaleRevivio/servidor_minecraft/config/clockwork.toml is not correct. Correcting
+[20Nov2025 02:53:40.105] [main/INFO] [Spartan Weaponry/]: Updating config settings!
+[20Nov2025 02:53:40.133] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/HytaleRevivio/servidor_minecraft/config/knightlib.toml is not correct. Correcting
+[20Nov2025 02:53:40.152] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/HytaleRevivio/servidor_minecraft/config/companions.toml is not correct. Correcting
+[20Nov2025 02:53:40.166] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[20Nov2025 02:53:40.168] [Thread-3/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[20Nov2025 02:53:40.169] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/HytaleRevivio/servidor_minecraft/config/legendarycreatures/legendarycreatures-common.toml is not correct. Correcting
+[20Nov2025 02:53:40.169] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MobSpawning.wisp.Wisp Purse Xp Reward Range  was corrected from [30, 30] to its default, [30, 30]. 
+[20Nov2025 02:53:40.169] [Thread-3/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[20Nov2025 02:53:40.169] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MobSpawning.nether_wisp.Nether Wisp Purse Xp Reward Range  was corrected from [80, 80] to its default, [80, 80]. 
+[20Nov2025 02:53:40.169] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MobSpawning.ender_wisp.Ender Wisp Purse Xp Reward Range  was corrected from [240, 240] to its default, [240, 240]. 
+[20Nov2025 02:53:40.181] [modloading-worker-0/INFO] [com.structureessentials.StructureEssentials/]: structureessentials mod initialized
+[20Nov2025 02:53:40.230] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[20Nov2025 02:53:40.372] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[20Nov2025 02:53:40.399] [modloading-worker-0/INFO] [com.jjthunder.jjthunder_to_the_max.JJThunderToTheMaxMain/]: HELLO FROM COMMON SETUP
+[20Nov2025 02:53:40.400] [modloading-worker-0/INFO] [com.jjthunder.jjthunder_to_the_max.JJThunderToTheMaxMain/]: DIRT BLOCK >> minecraft:dirt
+[20Nov2025 02:53:40.400] [modloading-worker-0/INFO] [com.jjthunder.jjthunder_to_the_max.JJThunderToTheMaxMain/]: The magic number is... 42
+[20Nov2025 02:53:40.404] [modloading-worker-0/INFO] [com.jjthunder.jjthunder_to_the_max.JJThunderToTheMaxMain/]: ITEM >> iron_ingot
+[20Nov2025 02:53:40.443] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[20Nov2025 02:53:40.554] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [piglinproliferation] Starting version check at https://api.modrinth.com/updates/piglin-proliferation/forge_updates.json
+[20Nov2025 02:53:40.666] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[20Nov2025 02:53:40.667] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[20Nov2025 02:53:40.667] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[20Nov2025 02:53:40.667] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[20Nov2025 02:53:40.667] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[20Nov2025 02:53:40.667] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[20Nov2025 02:53:40.667] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[20Nov2025 02:53:40.667] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[20Nov2025 02:53:40.668] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:throwable_using for minecraft:living_entity
+[20Nov2025 02:53:40.722] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[20Nov2025 02:53:40.723] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[20Nov2025 02:53:40.723] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[20Nov2025 02:53:40.724] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[20Nov2025 02:53:40.724] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[20Nov2025 02:53:40.725] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[20Nov2025 02:53:40.725] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[20Nov2025 02:53:40.745] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading FD animations...
+[20Nov2025 02:53:40.745] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_idle
+[20Nov2025 02:53:40.769] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_boom_attack
+[20Nov2025 02:53:40.775] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_attack
+[20Nov2025 02:53:40.781] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_roll_up
+[20Nov2025 02:53:40.788] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_roll_up_end
+[20Nov2025 02:53:40.793] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_second_phase_prepare
+[20Nov2025 02:53:40.798] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_second_phase_strike_walls
+[20Nov2025 02:53:40.803] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_roll_up_just_end
+[20Nov2025 02:53:40.808] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_roll
+[20Nov2025 02:53:40.814] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_roll_roll
+[20Nov2025 02:53:40.818] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_cast
+[20Nov2025 02:53:40.821] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [piglinproliferation] Found status: UP_TO_DATE Current: 1.20.1-1.2.6 Target: null
+[20Nov2025 02:53:40.821] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Starting version check at https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json
+[20Nov2025 02:53:40.823] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_earthquake_cast
+[20Nov2025 02:53:40.829] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_rockfall_cast
+[20Nov2025 02:53:40.834] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:electric_orb_idle
+[20Nov2025 02:53:40.835] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_crystal_spawn
+[20Nov2025 02:53:40.835] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_monolith_idle
+[20Nov2025 02:53:40.836] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_monolith_turn_off
+[20Nov2025 02:53:40.837] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:kinetic_field_spawn
+[20Nov2025 02:53:40.838] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_appear
+[20Nov2025 02:53:40.843] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_screen_appear
+[20Nov2025 02:53:40.849] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:chesed_death
+[20Nov2025 02:53:40.858] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:ray_reflector_activate
+[20Nov2025 02:53:40.858] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:test_malkuth
+[20Nov2025 02:53:40.863] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Found status: UP_TO_DATE Current: 3.4.14 Target: null
+[20Nov2025 02:53:40.864] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[20Nov2025 02:53:40.867] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_idle
+[20Nov2025 02:53:40.875] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_slash_fire
+[20Nov2025 02:53:40.883] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_slash_ice
+[20Nov2025 02:53:40.891] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_jump_forward_prepare
+[20Nov2025 02:53:40.899] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_jump_crush_attack_start
+[20Nov2025 02:53:40.907] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_jump_crush_attack_midair
+[20Nov2025 02:53:40.914] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_jump_crush_attack_end
+[20Nov2025 02:53:40.921] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_pull_and_punch
+[20Nov2025 02:53:40.929] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_screen_appear
+[20Nov2025 02:53:40.937] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_screen_idle
+[20Nov2025 02:53:40.944] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_crush_attack_attack
+[20Nov2025 02:53:40.947] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_cannon_shoot
+[20Nov2025 02:53:40.948] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_cannon_break
+[20Nov2025 02:53:40.948] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_cannon_repair
+[20Nov2025 02:53:40.949] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_cannon_summon
+[20Nov2025 02:53:40.949] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_jump_and_land
+[20Nov2025 02:53:40.957] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_jump_with_crush
+[20Nov2025 02:53:40.962] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[20Nov2025 02:53:40.962] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20Nov2025 02:53:40.965] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_jump_crush_attack_full
+[20Nov2025 02:53:40.973] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_sword_forward
+[20Nov2025 02:53:40.980] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_carousel_slash_1
+[20Nov2025 02:53:40.988] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_giant_sword_attack
+[20Nov2025 02:53:40.995] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_single_earthquake_fire
+[20Nov2025 02:53:41.002] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_single_earthquake_ice
+[20Nov2025 02:53:41.010] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_summon_throw_side_stones
+[20Nov2025 02:53:41.017] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_jump_to_float
+[20Nov2025 02:53:41.023] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_float
+[20Nov2025 02:53:41.031] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_summon_fireballs
+[20Nov2025 02:53:41.037] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_crystal_summon
+[20Nov2025 02:53:41.038] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_summon_anim
+[20Nov2025 02:53:41.044] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_warrior_idle
+[20Nov2025 02:53:41.045] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_warrior_attack
+[20Nov2025 02:53:41.047] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_warrior_walk
+[20Nov2025 02:53:41.048] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_warrior_slam_earth
+[20Nov2025 02:53:41.049] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_warrior_die
+[20Nov2025 02:53:41.051] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdbosses:malkuth_death
+[20Nov2025 02:53:41.057] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading animation: fdlib:testanim
+[20Nov2025 02:53:41.058] [main/INFO] [com.finderfeed.fdlib.FDLib/]: FD Animations loaded!
+[20Nov2025 02:53:41.058] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading FD models...
+[20Nov2025 02:53:41.058] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:chesed
+[20Nov2025 02:53:41.072] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:chesed
+[20Nov2025 02:53:41.075] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:chesed
+[20Nov2025 02:53:41.077] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:electric_orb
+[20Nov2025 02:53:41.078] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:chesed_crystal
+[20Nov2025 02:53:41.078] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:chesed_monolith
+[20Nov2025 02:53:41.079] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:chesed_kinetic_field
+[20Nov2025 02:53:41.080] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:boss_spawner
+[20Nov2025 02:53:41.081] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:boss_spawner
+[20Nov2025 02:53:41.082] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:chesed_ray_reflector
+[20Nov2025 02:53:41.083] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:wip
+[20Nov2025 02:53:41.084] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth
+[20Nov2025 02:53:41.085] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[20Nov2025 02:53:41.086] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[20Nov2025 02:53:41.086] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_screen
+[20Nov2025 02:53:41.091] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_sword
+[20Nov2025 02:53:41.092] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_crush_attack
+[20Nov2025 02:53:41.096] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_cannon
+[20Nov2025 02:53:41.097] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_cannon_projectile
+[20Nov2025 02:53:41.098] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_earthquake_part
+[20Nov2025 02:53:41.098] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_boulder_ice
+[20Nov2025 02:53:41.099] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_boulder_fire
+[20Nov2025 02:53:41.101] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_platform
+[20Nov2025 02:53:41.102] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_repair_crystal
+[20Nov2025 02:53:41.103] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_boss_spawner
+[20Nov2025 02:53:41.104] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdbosses:malkuth_warrior
+[20Nov2025 02:53:41.105] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdlib:test
+[20Nov2025 02:53:41.105] [main/INFO] [com.finderfeed.fdlib.FDLib/]: Loading model: fdlib:test
+[20Nov2025 02:53:41.105] [main/INFO] [com.finderfeed.fdlib.FDLib/]: FD Models loaded!
+[20Nov2025 02:53:41.144] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[20Nov2025 02:53:41.145] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[20Nov2025 02:53:41.147] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[20Nov2025 02:53:41.147] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[20Nov2025 02:53:41.224] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.1 Target: null
+[20Nov2025 02:53:41.226] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_trek] Starting version check at https://api.modrinth.com/updates/h2jngREY/forge_updates.json
+[20Nov2025 02:53:41.239] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[20Nov2025 02:53:41.248] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[20Nov2025 02:53:41.248] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[20Nov2025 02:53:41.261] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[20Nov2025 02:53:41.266] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[20Nov2025 02:53:41.268] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.github.exopandora.shouldersurfing.integration.ShoulderSurfingJadePlugin
+[20Nov2025 02:53:41.269] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[20Nov2025 02:53:41.275] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_trek] Found status: BETA Current: 1-B0.5.1.1 Target: B0.5.1.1+mod
+[20Nov2025 02:53:41.289] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[20Nov2025 02:53:41.291] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[20Nov2025 02:53:41.291] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
+[20Nov2025 02:53:43.653] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20Nov2025 02:53:45.664] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/HytaleRevivio/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23275!/assets/.mcassetsroot' uses unexpected schema
+[20Nov2025 02:53:45.665] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/HytaleRevivio/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23275!/data/.mcassetsroot' uses unexpected schema
+[20Nov2025 02:54:00.841] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in /workspaces/HytaleRevivio/servidor_minecraft/tacz
+[20Nov2025 02:54:00.852] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
+[20Nov2025 02:54:00.853] [main/INFO] [tacz/GunPackFinder]: Found 1 possible gunpack(s) and added them to resource set.
+[20Nov2025 02:54:02.975] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
+[20Nov2025 02:54:03.020] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[20Nov2025 02:54:03.172] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag ctov:wares/cardboard_box as it is missing following references: wares:cardboard_box (from [forge]ctov-3.4.14.jar)
+[20Nov2025 02:54:03.187] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag ctov:wares/sealed_delivery_agreement as it is missing following references: wares:sealed_delivery_agreement (from [forge]ctov-3.4.14.jar)
+[20Nov2025 02:54:03.280] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:mushroom_grow_block as it is missing following references: netherdungeons:growth_mauve (from netherdungeons-1.1.0-snapshot4.jar)
+[20Nov2025 02:54:04.015] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[20Nov2025 02:54:04.042] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:ati_structures:chests/archer_chest
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:set_components'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23280!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23280!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[20Nov2025 02:54:04.105] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
+[20Nov2025 02:54:04.423] [Worker-Main-2/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[20Nov2025 02:54:04.655] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[20Nov2025 02:54:04.655] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_blasting_electrum_weapons as it's serializer returned null
+[20Nov2025 02:54:04.663] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[20Nov2025 02:54:04.663] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_smelting_platinum_weapons as it's serializer returned null
+[20Nov2025 02:54:04.681] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[20Nov2025 02:54:04.681] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_blasting_aluminum_weapons as it's serializer returned null
+[20Nov2025 02:54:04.703] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe luminous_nether:supplementaries_ash_block
+com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:ash'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23280!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23280!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23280!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[20Nov2025 02:54:04.708] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[20Nov2025 02:54:04.709] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_blasting_bronze_weapons as it's serializer returned null
+[20Nov2025 02:54:04.714] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[20Nov2025 02:54:04.715] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_blasting_steel_weapons as it's serializer returned null
+[20Nov2025 02:54:04.717] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[20Nov2025 02:54:04.717] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_smelting_invar_weapons as it's serializer returned null
+[20Nov2025 02:54:04.718] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[20Nov2025 02:54:04.719] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_smelting_constantan_weapons as it's serializer returned null
+[20Nov2025 02:54:04.730] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[20Nov2025 02:54:04.730] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_smelting_nickel_weapons as it's serializer returned null
+[20Nov2025 02:54:04.731] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[20Nov2025 02:54:04.731] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_smelting_electrum_weapons as it's serializer returned null
+[20Nov2025 02:54:04.737] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[20Nov2025 02:54:04.738] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_smelting_lead_weapons as it's serializer returned null
+[20Nov2025 02:54:04.747] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[20Nov2025 02:54:04.748] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_smelting_steel_weapons as it's serializer returned null
+[20Nov2025 02:54:04.760] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[20Nov2025 02:54:04.762] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_blasting_platinum_weapons as it's serializer returned null
+[20Nov2025 02:54:04.762] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[20Nov2025 02:54:04.762] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_blasting_constantan_weapons as it's serializer returned null
+[20Nov2025 02:54:04.775] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[20Nov2025 02:54:04.775] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_blasting_lead_weapons as it's serializer returned null
+[20Nov2025 02:54:04.780] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[20Nov2025 02:54:04.780] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_smelting_bronze_weapons as it's serializer returned null
+[20Nov2025 02:54:04.781] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[20Nov2025 02:54:04.781] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_smelting_tin_weapons as it's serializer returned null
+[20Nov2025 02:54:04.782] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe netherdungeons:crafting/chiseled_polished_gilded_blackstone
+com.google.gson.JsonSyntaxException: Unknown item 'netherdungeons:polished_gilded_blackstone_slab'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23280!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23280!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23280!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23275!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[20Nov2025 02:54:04.810] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[20Nov2025 02:54:04.811] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_blasting_nickel_weapons as it's serializer returned null
+[20Nov2025 02:54:04.814] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[20Nov2025 02:54:04.814] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_blasting_invar_weapons as it's serializer returned null
+[20Nov2025 02:54:04.821] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[20Nov2025 02:54:04.821] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_blasting_tin_weapons as it's serializer returned null
+[20Nov2025 02:54:04.826] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[20Nov2025 02:54:04.827] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_smelting_aluminum_weapons as it's serializer returned null
+[20Nov2025 02:54:04.836] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 13 recipes
+[20Nov2025 02:54:04.895] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[20Nov2025 02:54:05.077] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[20Nov2025 02:54:05.116] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[20Nov2025 02:54:05.127] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[20Nov2025 02:54:05.171] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3993 advancements
+[20Nov2025 02:54:05.203] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[20Nov2025 02:54:05.212] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[20Nov2025 02:54:05.212] [main/INFO] [Dungeon Crawl/]: Loading data...
+[20Nov2025 02:54:05.481] [main/INFO] [Dungeon Crawl/]: Done.
+[20Nov2025 02:54:05.603] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: legendarycreatures:has_baby_scorpion_scarab, legendarycreatures:has_corpse_eater_scarab, legendarycreatures:has_desert_mojo_scarab, legendarycreatures:has_forest_mojo_butterfly, legendarycreatures:has_scarecrow_ladybug
+[20Nov2025 02:54:07.266] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 8.514302ms
+[20Nov2025 02:54:07.410] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[20Nov2025 02:54:07.411] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[20Nov2025 02:54:07.411] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[20Nov2025 02:54:07.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Nov2025 02:54:07.628] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[20Nov2025 02:54:07.655] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[20Nov2025 02:54:07.745] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20Nov2025 02:54:07.746] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[20Nov2025 02:54:07.746] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20Nov2025 02:54:07.746] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[20Nov2025 02:54:08.585] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[20Nov2025 02:54:08.586] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[20Nov2025 02:54:08.586] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[20Nov2025 02:54:13.177] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:0 potentially creating overlapping structures detected. Structure sets: [minecraft:mineshafts, minecraft:strongholds, minecraft:buried_treasures]
+[20Nov2025 02:54:13.177] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:100922847 potentially creating overlapping structures detected. Structure sets: [mns:medium_house, mns:medium_house_2]
+[20Nov2025 02:54:13.177] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:14357621 potentially creating overlapping structures detected. Structure sets: [trek:overworld/medium, minecraft:ocean_ruins]
+[20Nov2025 02:54:13.178] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:10387313 potentially creating overlapping structures detected. Structure sets: [minecraft:ocean_monuments, minecraft:end_cities, dungeoncrawl:dungeons]
+[20Nov2025 02:54:13.178] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:783 potentially creating overlapping structures detected. Structure sets: [nova_structures:taverns, nova_structures:badlands_miner_outpost]
+[20Nov2025 02:54:13.178] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:168272323 potentially creating overlapping structures detected. Structure sets: [companions:companions_teddytower, companions:companions_babayaga, companions:companions_factory, tameablebeasts:beetle_nest]
+[20Nov2025 02:54:13.178] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:10387312 potentially creating overlapping structures detected. Structure sets: [minecraft:villages, nova_structures:villages_jungle, nova_structures:villages_swamp]
+[20Nov2025 02:54:13.178] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:4533232 potentially creating overlapping structures detected. Structure sets: [nova_structures:illager_camp, nova_structures:nether_camps]
+[20Nov2025 02:54:13.179] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:239021 potentially creating overlapping structures detected. Structure sets: [nova_structures:desert_ruins, nova_structures:jungle_ruins]
+[20Nov2025 02:54:13.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Nov2025 02:54:16.386] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:16.655] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:16.656] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:16.657] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:16.658] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:18.156] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:18.162] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:18.308] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:18.310] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:18.311] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:18.333] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:18.687] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:19.190] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:19.726] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:20.186] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:22.356] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:22.357] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:22.360] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:22.361] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Nov2025 02:54:22.680] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[20Nov2025 02:54:23.180] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[20Nov2025 02:54:23.478] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10299 ms
+[20Nov2025 02:54:23.479] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.716s)! For help, type "help"
+[20Nov2025 02:54:23.556] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20Nov2025 02:54:23.559] [Server thread/INFO] [com.jjthunder.jjthunder_to_the_max.JJThunderToTheMaxMain/]: HELLO from server starting
+[20Nov2025 02:54:23.562] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[20Nov2025 02:54:23.562] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[20Nov2025 02:54:23.694] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 333578 bytes (in 34 string chunks with the size of 10000)
+[20Nov2025 02:54:23.694] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loading FD configs...
+[20Nov2025 02:54:23.695] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loading config fdbosses:bosses
+[20Nov2025 02:54:23.696] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loading config fdbosses:bosses_clientside
+[20Nov2025 02:54:23.696] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loading config fdlib:test
+[20Nov2025 02:54:23.697] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loading config fdlib:fdlib_client
+[20Nov2025 02:54:23.697] [Server thread/INFO] [com.finderfeed.fdlib.FDLib/]: Loaded FD configs.
+[20Nov2025 02:58:19.018] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Rodripc1610[/127.41.23.31:46181] logged in with entity id 195 at (14.858860635658159, 105.0, 19.996426701259374)
+[20Nov2025 02:58:19.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Rodripc1610 joined the game
+[20Nov2025 02:58:19.190] [Server thread/INFO] [fallingtrees | Config/]: Sending common config 'fallingtrees:fallingtrees_common' to Rodripc1610
+[20Nov2025 02:58:19.471] [Server thread/INFO] [tannyjung.tht.ThtMod/]: THT : Run a test to get world height limit and the result is 2048.0
+[20Nov2025 02:58:19.478] [Server thread/INFO] [Jade/]: Syncing config to Rodripc1610 (9436484c-2ba9-3454-ad79-4bf5a35c2446)
+[20Nov2025 02:58:19.863] [Netty Epoll Server IO #3/INFO] [fallingtrees | Config/]: Received client config 'fallingtrees:fallingtrees_client' from Rodripc1610
+[20Nov2025 02:59:50.942] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Warrior_Legend[/127.137.210.63:45853] logged in with entity id 331 at (1337.6941639970782, 96.0, 199.47146228858963)
+[20Nov2025 02:59:50.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Warrior_Legend joined the game
+[20Nov2025 02:59:50.980] [Server thread/INFO] [fallingtrees | Config/]: Sending common config 'fallingtrees:fallingtrees_common' to Warrior_Legend
+[20Nov2025 02:59:50.984] [Server thread/INFO] [Jade/]: Syncing config to Warrior_Legend (576a41da-b25f-371e-bac5-16bdefdd645d)
+[20Nov2025 02:59:52.330] [Netty Epoll Server IO #5/INFO] [fallingtrees | Config/]: Received client config 'fallingtrees:fallingtrees_client' from Warrior_Legend
+[20Nov2025 02:59:54.720] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3722ms or 74 ticks behind
+[20Nov2025 03:00:21.299] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LIGS_458[/127.29.9.158:54955] logged in with entity id 623 at (1103.528687816945, 101.0, 570.2240710959528)
+[20Nov2025 03:00:21.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LIGS_458 joined the game
+[20Nov2025 03:00:21.359] [Server thread/INFO] [fallingtrees | Config/]: Sending common config 'fallingtrees:fallingtrees_common' to LIGS_458
+[20Nov2025 03:00:21.362] [Server thread/INFO] [Jade/]: Syncing config to LIGS_458 (d85ff47d-547e-379f-bb16-6212ed7eb8a4)
+[20Nov2025 03:00:22.546] [Netty Epoll Server IO #7/INFO] [fallingtrees | Config/]: Received client config 'fallingtrees:fallingtrees_client' from LIGS_458
+[20Nov2025 03:00:48.435] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LIGS_458 lost connection: Disconnected
+[20Nov2025 03:00:48.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LIGS_458 left the game
